@@ -1,0 +1,21 @@
+.venn-card {
+  position: relative;
+}
+.venn-label {
+  position: absolute;
+  top: 1px;
+  right: 16px;
+  z-index: 2;
+}
+.venn-badge {
+  background: #2d3a4a;
+  color: #90caf9;
+  padding: 1px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+svg {
+  display: block;
+  margin: 0 auto;
+}
