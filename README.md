@@ -27,4 +27,4 @@ This project is a clean, modular, and responsive dashboard built with Angular (n
 - Update components in `src/app/` to modify dashboard features.
 
 ---
-For workspace-specific Copilot instructions, see `.github/copilot-instructions.md`.
+
