@@ -54,3 +54,20 @@
   font-weight: 500;
   text-align: right;
 }
+
+@media (max-width: 900px) {
+  .progress-card {
+    min-width: 0;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 600px) {
+  .progress-card {
+    padding: 4px;
+    font-size: 13px;
+  }
+}

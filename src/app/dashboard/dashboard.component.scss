@@ -42,12 +42,51 @@
   font-size: 20px;
   font-weight: 600;
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .dashboard-row {
     flex-direction: column;
+    gap: 16px;
+  }
+  .dashboard-block {
+    min-width: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .dashboard-container {
+    padding: 4px;
+  }
+  .dashboard-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .dashboard-block {
+    width: 100%;
+    min-width: 0;
+    padding: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
   }
   .completion-block {
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
+    align-items: stretch;
+  }
+  .dashboard-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .dashboard-container {
+    padding: 2px;
+  }
+  .dashboard-block {
+    padding: 4px;
+    font-size: 13px;
+  }
+  .dashboard-title {
+    font-size: 14px;
+    margin-bottom: 6px;
   }
 }
